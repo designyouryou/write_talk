@@ -1,25 +1,23 @@
 baseURL: ""
 languageCode: en-us
-title: Design Your You
+title: The Elemental Epistles Talk Writing Guide
 
 theme: "PaperMod"
 # Support at https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-features/
 
 
 params:
-    homeInfoParams:
-        title: "Welcome to Design Your You"
-        content: "This website is a compilation of interesting projects and random mutterings by Landon Taylor."
-
-    socialIcons: 
-        - name: "github"
-          url: "https://github.com/landonjefftaylor"
-        - name: "website"
-          url: "<link2>"
+    profileMode:
+        enabled: true
+        title: "Talk Writing Guide" # optional default will be site title
+        subtitle: "A religious sermon writing guide for the rest of us"
+        buttons:
+        - name: "Get Started"
+          url: "/start/"
 
     # ShowBreadCrumbs: true
     ShowShareButtons: true
-    ShowReadingTime: true
+    # ShowReadingTime: true
     DateFormat: "2 January 2006"
     assets:
         disableHLJS: true
@@ -61,20 +59,14 @@ menu:
     name: About
     url: /about/
     weight: 1
-  - identifier: blog
-    name: Blog
-    url: /blog/
+  - identifier: start
+    name: Start
+    url: /start/
     weight: 2
-  - identifier: docs
-    name: Docs
-    url: /documentation/
-    weight: 3
-  - identifier: search
-    name: Search
-    url: /search/
-    weight: 4
-
-
+  # - identifier: search
+  #   name: Search
+  #   url: /search/
+  #   weight: 4
 
 
 outputs:
