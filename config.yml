@@ -1,8 +1,9 @@
-baseURL: ""
+baseURL: "http://elementalepistles.com/"
 relativeURLs: true
 languageCode: en-us
 title: The Elemental Epistles Talk Writing Guide
 
+# theme: "hermit"
 theme: "PaperMod"
 # Support at https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-features/
 
