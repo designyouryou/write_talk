@@ -23,4 +23,4 @@ Have you been asked to speak about a particular topic?
 
 [**No**, I need to choose a topic to speak about](/topic/)
 
-[**Yes**, I have been assigned a topic to speak about](/style/)
+[**Yes**, I have a topic to speak about](/style/)
